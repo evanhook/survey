@@ -4,6 +4,7 @@ $(document).ready(function() {
     const nameInput = $("#name").val();
     const foodInput = $("#favoriteFood").val();
     const musicInput = $("input:radio[name=music]:checked").val();
+    const favoriteColor = $("#color").val();
     
   });
 });
