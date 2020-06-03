@@ -3,7 +3,7 @@ $(document).ready(function() {
     event.preventDefault();
     const nameInput = $("#name").val();
     const foodInput = $("#favoriteFood").val();
-
+    const musicInput = $("input:radio[name=music]:checked").val();
     
   });
 });
