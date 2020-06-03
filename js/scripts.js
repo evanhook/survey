@@ -5,6 +5,7 @@ $(document).ready(function() {
     const foodInput = $("#favoriteFood").val();
     const musicInput = $("input:radio[name=music]:checked").val();
     const favoriteColor = $("#color").val();
+    const dateInput = $("#born").val();
     
   });
 });
